@@ -1,12 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="광주광역시 장기요양 방문요양 전문기관 미소 노인재가복지센터 - 어르신의 삶에 따뜻함을 더합니다.">
+    <meta name="keywords" content="광주 방문요양, 장기요양보험, 노인복지, 요양서비스, 재가복지센터, 미소 노인재가복지센터">
+    <meta name="author" content="미소 노인재가복지센터">
+
     <meta property="og:title" content="미소 노인재가복지센터">
     <meta property="og:description" content="광주광역시에 위치한 장기요양보험 방문요양 서비스를 제공하는 미소 노인재가복지센터입니다.">
-    <meta property="og:image" content="https://misso8500.github.io/sources/image_logo.jpg">
+    <meta property="og:image" content="https://misso8500.github.io/sources/image_header.jpg">
     <meta property="og:url" content="https://misso8500.github.io">
 
     <!-- favicon -->
@@ -19,7 +24,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/sources/favicon//apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/sources/favicon//apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/sources/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/sources/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/sources/favicon//android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/sources/favicon//favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/sources/favicon//favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/sources/favicon//favicon-16x16.png">
@@ -28,213 +33,336 @@
     <title>미소 노인재가복지센터</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+    <style>
+        #hero {
+            background-image: url("./sources/image_header.png");
+            background-position: center;
+            background-size: cover;
+        }
+
+        .div-img {
+            background-position: center;
+            background-size: cover;
+            height: 15rem;
+        }
+
+        .img-logo {
+            background-image: url("./sources/image_logo.jpg");
+        }
+
+        .img-blog {
+            background-image: url("https://i.namu.wiki/i/QWVJJqQ2U_KE1A1BkDI5WwhFcIeQ4C9uGIgibUWPHr3ev65fv4JW9_Yd-66EVu_0TF8mMXIh9k_dnrv_DlLBCw.svg");
+        }
+
+        .img-kakao {
+            background-image: url("https://t1.kakaocdn.net/rocket/static/images/meta_kakao_talk_channel_symbol.png");
+        }
+
+        .img-list {
+            background-image: url("https://plus.unsplash.com/premium_photo-1681487867978-1b83ce2625c5?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+    </style>
+
 </head>
 
 <body>
     <header>
         <!-- 0. Navbar Div -->
-        <div class="px-3 py-2 text-bg-dark border-bottom fixed-top">
+        <div class="px-3 py-2 text-bg-primary border-bottom sticky-top">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/"
                         class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                         <img class="rounded-5" style="width: 3rem;" src="sources/image_logo.jpg">
-                        <span class="fw-bold m-3">미소 노인재가복지센터</span>
+                        <span class="fw-bold m-3 fs-1">미소 노인재가복지센터</span>
                     </a>
                     <!-- Navbar Categories -->
-                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small align-middle">
-                        <li>
-                            <a href="#" class="nav-link text-secondary">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#home"></use>
-                                </svg>
-                                홈
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#speedometer2"></use>
-                                </svg>
-                                소개
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#table"></use>
-                                </svg>
-                                이용방법
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#grid"></use>
-                                </svg>
-                                서비스절차
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#grid"></use>
-                                </svg>
-                                미소 블로그
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link text-white">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                    <use xlink:href="#people-circle"></use>
-                                </svg>
-                                문의하기
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-warning btn-sm rounded-2 px-3 fs-3"
+                            data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom"
+                            data-bs-content="광주광역시 광산구 수등로 258번길 10(우미 린 상가) 롯데슈퍼 2층 미소
+                            노인재가복지센터">주소</button>
+                        <button type="button" class="btn btn-outline-light btn-sm rounded-2 px-3 fs-3"
+                            data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom"
+                            data-bs-content="010-8615-2332">전화번호</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="px-3 py-2 border-bottom mb-3">
-            <div class="container d-flex flex-wrap justify-content-center">
-                <div class="text-end">
-                    <button type="button" class="btn btn-warning rounded-pill px-3">주소</button>
-                    <button type="button" class="btn btn-dark rounded-pill px-3">전화번호</button>
-                </div>
-            </div>
+        <div class="px-3 py-2 border-bottom mb-5 bg-primary-subtle">
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small align-middle">
+                <li>
+                    <a href="#" class="nav-link text-secondary">
+                        홈
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-black">
+                        소개
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-black">
+                        이용방법
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-black">
+                        서비스절차
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-black">
+                        미소 블로그
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-black">
+                        문의하기
+                    </a>
+                </li>
+            </ul>
+
         </div>
     </header>
-    <main>
-        <!-- 1. Heroes Div -->
-        <div class="px-4 pt-5 my-5 text-center border-bottom">
-            <h1 class="display-4 fw-bold text-body-emphasis">"미소 노인재가복지센터"</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">어르신을 위한 따뜻한 돌봄, 집에서도 편안하고 안전하게, 전문 요양 서비스로 어르신의 일상을 함께합니다.</p>
-                <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-                </div> -->
-            </div>
-            <div class="overflow-hidden" style="max-height: 30vh;">
-                <div class="container px-5">
-                    <img src="https://media.istockphoto.com/id/2151931113/ko/%EC%82%AC%EC%A7%84/mother-and-daughter-talking-while-walking-through-the-public-park.jpg?s=2048x2048&w=is&k=20&c=FE6zjTfc0hb4NmbC0iqiPnYnVRnrNMWdBOBC6_EU6lg=" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
-                        width="700" height="500" loading="lazy">
+    <main class="container">
+        <!-- 1. Main Div -->
+        <div class="container py4 mb-5 mx-auto">
+            <div class="text-center">
+                <div class="row">
+                    <!-- 1-1. 정보 Column -->
+                    <div class="col">
+                        <div class="vstack gap-3">
+                            <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-3 w-100 h-50">
+                                <div class="d-flex flex-column align-items-start position-relative">
+                                    <h2 class="mb-2 text-primary">방문요양</h2>
+                                    <small class="w-50 text-break text-secondary mb-3">집에서도 편안하고 안전하게, 전문 요양
+                                        서비스로 어르신의 일상을
+                                        함께합니다.</small>
+                                    <button class="btn btn-primary my-2">바로가기</button>
+                                    <img src="./sources/image_care.png" class="position-absolute bottom-0 end-0"
+                                        style="width: 8rem; height: 8rem;" alt="">
+                                </div>
+                            </div>
+                            <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-3 w-100 h-50">
+                                <div class="d-flex flex-column align-items-start position-relative">
+                                    <h2 class="mb-2 text-primary">방문목욕</h2>
+                                    <small class="w-50 text-break text-secondary mb-3">목욕이 필요하신 어르신들을 목욕차가
+                                        찾아갑니다.</small>
+                                    <button class="btn btn-primary my-2">바로가기</button>
+                                    <img src="./sources/image_bath.png" class="position-absolute bottom-0 end-0"
+                                        style="width: 8rem; height: 8rem;" alt="">
+                                </div>
+                            </div>
+                            <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-3 w-100 h-50">
+                                <div class="d-flex flex-column align-items-start position-relative">
+                                    <h2 class="mb-2 text-primary">이용문의</h2>
+                                    <small class="w-50 text-break text-secondary mb-3">카카오톡 플러스친구로 궁금한 것이 있다면 상담
+                                        도와드리겠습니다.</small>
+                                    <button class="btn btn-primary my-2">바로가기</button>
+                                    <img src="./sources/image_contact.png" class="position-absolute bottom-0 end-0"
+                                        style="width: 8rem; height: 8rem;" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- 1-2. 이미지 노출 지면 -->
+                    <div id="hero"
+                        class="col shadow-sm overflow-hidden d-flex flex-column justify-content-center border border-light-subtle">
+
+                    </div>
+                    <!-- 1-3. 정보 Column -->
+                    <div class="col d-flex flex-column align-items-end">
+                        <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-5 w-100">
+                            <div class="d-flex flex-column align-items-start position-relative">
+                                <h2 class="mb-2 text-primary">노인장기요양보험</h2>
+                                <small class="w-50 text-break text-secondary mb-5">어르신들이 댁에서 도움을 받을 수 있는 보험제도를
+                                    알아보세요.</small>
+                                <button class="btn btn-primary my-2">바로가기</button>
+                                <img src="./sources/image_elderly.png" class="position-absolute bottom-0 end-0"
+                                    style="width: 8rem; height: 8rem;" alt="">
+                            </div>
+                        </div>
+                        <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-5 mt-auto w-100">
+                            <div class="d-flex flex-column align-items-start position-relative">
+                                <h2 class="mb-2 text-primary">서비스 이용 방법</h2>
+                                <small class="w-50 text-break text-secondary mb-5">재가 서비스를 이용 받기 위해서 필요한 절차를
+                                    도와드립니다.</small>
+                                <button class="btn btn-primary my-2">바로가기</button>
+                                <img src="./sources/image_howto.png" class="position-absolute bottom-0 end-0"
+                                    style="width: 8rem; height: 8rem;" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- 2. Info Categoires Div -->
-        <div class="container">
+        <div class="container my-5 mx-auto rounded text-body-emphasis position-relative">
+            <div class="mt-5 px-0 p-4">
+                <!-- 2-1. Info Title -->
+                <h1 class="pb-2 display-4 fst-italic border-bottom">미소 노인재가복지센터</h1>
+                <p class="lead my-3">광주광역시 광산구 신가동에 위치한 장기요양보험 방문요양 서비스를 제공하는 미소 노인재가복지센터입니다.</p>
+                <!-- 2-2. Info Carousel -->
+                <div id="carouselExample" class="carousel slide my-5">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./sources/image_roadview.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./sources/image_map.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./sources/image_roadview.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- 2-3. Contact Info -->
+                <div class="container">
+                    <h3 class="text-body-emphasis fst-italic">찾아오시는 길</h1>
+                        <div class="d-flex mb-5 justify-content-between">
+                            <img src="./sources/image_map.png" class="img-fluid w-50" alt="">
+                            <div class="bg-primary-subtle rounded-1 shadow-sm p-5 d-flex flex-column">
+                                <div class="d-flex flex-column justify-content-center my-3">
+                                    <p class="badge rounded-pill text-bg-primary fs-5">도로명주소</p>
+                                    <span class="fs-6 fw-bold">광주광역시 광산구 수등로 258번길 10(우미 린 상가)<br>롯데슈퍼 2층 미소
+                                        노인재가복지센터</span>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center my-3">
+                                    <p class="badge rounded-pill text-bg-primary fs-5">인근 건물 정보</p>
+                                    <span class="fs-6 fw-bold">* 신가사거리에서 우미아파트 상가 롯데슈퍼 2층으로 오세요~</span>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center my-3">
+                                    <p class="badge rounded-pill text-bg-primary fs-5">문의 전화</p>
+                                    <span class="fs-6 fw-bold">대표 : 신수연 / 010-8615-2332</span>
+                                </div>
+                                <!-- <p class="lead mb-3 badge rounded-pill text-bg-primary">도로명주소 </p>
+                                <span>광주광역시 광산구 수등로 258번길 10(우미 린 상가) 롯데슈퍼 2층 미소 노인재가복지센터</span>
+                                <p class="lead my-3 badge rounded-pill text-bg-primary">인근건물 <br> * 신가사거리에서 우미아파트 상가 롯데슈퍼 2층으로 오세요~</p>
+                                <p class="lead my-3 badge rounded-pill text-bg-primary">문의전화 <br> 대표 : 신수연 / 010-8615-2332</p> -->
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3. Social Info Div -->
+        <div class="album py-5 mb-5">
+            <div class="container">
+                <h3 class="fst-italic">미소 소식</h3>
+                <p class="lead my-3">미소 노인재가복지센터와 어르신들이 어떻게 지내는지 확인해보세요.</p>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <!-- 3-1. Blog -->
+                    <div class="col">
+                        <div class="card shadow-sm overflow-hidden">
+                            <div class="div-img img-blog"></div>
+                            <div class="card-body">
+                                <small class="text-primary">미소 블로그</small>
+                                <p class="card-text">미소 노인재가복지센터의 소식 및 정보를 블로그에서 확인해보세요.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">바로가기</button>
+                                    </div>
+                                    <small class="text-body-secondary">BLOG</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3-2. Kakao Plus Friend -->
+                    <div class="col">
+                        <div class="card shadow-sm overflow-hidden">
+                            <div class="div-img img-kakao"></div>
+                            <div class="card-body">
+                                <small class="text-primary">카카오톡 플러스친구</small>
+                                <p class="card-text">우리집 어르신들이 어떻게 서비스를 받을 수 있는지 직접 문의해보세요</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">바로가기</button>
+                                    </div>
+                                    <small class="text-body-secondary">KAKAO CONTACT</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3-3. Customer Case -->
+                    <div class="col">
+                        <div class="card shadow-sm overflow-hidden">
+                            <div class="div-img img-list"></div>
+                            <div class="card-body">
+                                <small class="text-primary">수급자 케이스</small>
+                                <p class="card-text">내 어르신은 어떤 케이스에 해당할까요?. 미소가 정리한 케이스들을 확인해보세요</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">바로가기</button>
+                                    </div>
+                                    <small class="text-body-secondary">CASE LIST</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <!-- 2-1. 센터 소개 Div -->
-                <div class="col">
-                    <div class="card shadow-sm overflow-hidden">
-                        <img class="shadow-sm img-fluid object-fit-fill" src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240219_40%2F1708338669366XK3Lj_JPEG%2FIMG_1045.jpeg"/>
-                        <div class="card-body">
-                            <p class="card-text">광주광역시 광산구 신가동에 위치한 미소 노인재가복지센터를 소개합니다.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">보기</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- 2-2. 장기요양 서비스 소개 Div -->
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="shadow-sm" src="https://www.mohw.go.kr/kor/img/policy/063903_01.gif"/>
-                        <div class="card-body">
-                            <p class="card-text">집에 계시는 어르신들을 위해 요양보호사가 댁에 방문하는 장기요양 서비스에 대해 알아보세요.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">보기</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- 2-3. 장기요양 서비스 받는 법 Div -->
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="shadow-sm" src="https://media.istockphoto.com/id/2151931113/ko/%EC%82%AC%EC%A7%84/mother-and-daughter-talking-while-walking-through-the-public-park.jpg?s=2048x2048&w=is&k=20&c=FE6zjTfc0hb4NmbC0iqiPnYnVRnrNMWdBOBC6_EU6lg="/>
-                        <div class="card-body">
-                            <p class="card-text">장기요양 서비스를 제공 받기 위해서는 무엇이 필요한지 확인해보세요.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">보기</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Division Space -->
-        <br>
-        <!-- 3. Contact Info Div -->
-        <div class="container py-4">
-            <div class="row align-items-md-stretch">
-                <div class="col-md-6">
-                    <div class="h-100 p-5 text-bg-dark rounded-3">
-                        <h2>062-952-8500</h2>
-                        <br>
-                        <p>미소 노인재가복지센터가 <br>전문 요양 서비스로 어르신의 일상을 함께합니다.</p>
-                        <br>
-                        <button class="btn btn-light" type="button">문의하기 연결</button>
-                        <br>
-                        <small>*자세한 것은 홈페이지의 문의하기 버튼을 통해 이용 바랍니다.</small>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-                        <h2>오시는 길</h2>
-                        <img class="rounded-3 w-100 p-1" src="/sources/image_roadview.png">
-                        <p>광주광역시 광산구 수등로 258번길 10(우미 이노스빌 상가) 롯데슈퍼 2층, 미소 노인재가복지센터.</p>
-                        <button class="btn btn-outline-secondary" type="button">네이버 지도 보기</button>
-                    </div>
-                </div>
-            </div>
-        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-body-tertiary">
         <!-- 4. Footer Links -->
         <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
             <div class="row">
-              <div class="col-lg-3 mb-3 w-50">
-                <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-                  <span class="fs-5">미소 노인재가복지센터</span>
-                </a>
-                <ul class="list-unstyled small">
-                  <li class="mb-2">대표자 : 신수연</li>
-                  <li class="mb-2">사업자번호 : 734-80-02587</li>
-                  <li class="mb-2">TEL : 062-952-8500</li>
-                  <li class="mb-2">FAX : 062-952-8501</li>
-                  <li class="mb-2">주소 : 광주광역시 광산구 수등로 258번길 10(우미 이노스빌) 상가 2층, 미소 노인재가복지센터</li>
-                  <li class="mb-2">문의전화 : 010-8615-2332</li>
+                <div class="col-lg-3 mb-3 w-50">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/"
+                        aria-label="Bootstrap">
+                        <img src="sources/image_logo.jpg" width="40" height="40" class="d-block me-2"
+                            viewBox="0 0 118 94" role="img">
+                        <title>Bootstrap</title>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                            fill="currentColor"></path>
+                        </svg>
+                        <span class="fs-5">미소 노인재가복지센터</span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">대표자 : 신수연</li>
+                        <li class="mb-2">사업자번호 : 734-80-02587</li>
+                        <li class="mb-2">TEL : 062-952-8500</li>
+                        <li class="mb-2">FAX : 062-952-8501</li>
+                        <li class="mb-2">주소 : 광주광역시 광산구 수등로 258번길 10(우미 린 상가) 롯데슈퍼 2층, 미소 노인재가복지센터</li>
+                        <li class="mb-2">문의전화 : 010-8615-2332</li>
 
-                </ul>
-              </div>
-              <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-                <h5>링크</h5>
-                <ul class="list-unstyled">
-                  <li class="mb-2"><a href="/">홈</a></li>
-                  <li class="mb-2"><a href="/docs/5.3/">소개</a></li>
-                  <li class="mb-2"><a href="/docs/5.3/examples/">이용방법</a></li>
-                  <li class="mb-2"><a href="https://icons.getbootstrap.com/">서비스절차</a></li>
-                  <li class="mb-2"><a href="https://icons.getbootstrap.com/">미소 블로그</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-                <h5>문의하기</h5>
-                <ul class="list-unstyled">
-                  <li class="mb-2"><a href="/">카카오플러스친구</a></li>
-                  <li class="mb-2"><a href="/docs/5.3/">직접문의하기</a></li>
-                </ul>
-              </div>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>링크</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/">홈</a></li>
+                        <li class="mb-2"><a href="/docs/5.3/">소개</a></li>
+                        <li class="mb-2"><a href="/docs/5.3/examples/">이용방법</a></li>
+                        <li class="mb-2"><a href="https://icons.getbootstrap.com/">서비스절차</a></li>
+                        <li class="mb-2"><a href="https://icons.getbootstrap.com/">미소 블로그</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>문의하기</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/">카카오플러스친구</a></li>
+                        <li class="mb-2"><a href="/docs/5.3/">직접문의하기</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
+        </div>
         <!-- 5. Corp Info -->
         <div class="container py-4 py-md-5 px-4 px-md-3">
             <small class="fw-bold text-body-secondary">2025 미소 노인재가복지센터 All rights reserved.</small>
@@ -243,6 +371,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script>
+        // popover on header
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+    </script>
 </body>
 
 </html>
