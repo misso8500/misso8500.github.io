@@ -43,6 +43,7 @@
             background-image: url("./sources/image_header.png");
             background-position: center;
             background-size: cover;
+            min-height: 30rem;
         }
 
         .div-img {
@@ -65,6 +66,14 @@
 
         .img-list {
             background-image: url("https://plus.unsplash.com/premium_photo-1681487867978-1b83ce2625c5?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+
+        body,
+        html {
+            width: 100%;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
         }
     </style>
 
@@ -136,7 +145,7 @@
             <div class="text-center">
                 <div class="row">
                     <!-- 1-1. 정보 Column -->
-                    <div class="col">
+                    <div class="col-12 col-md-4 mb-4">
                         <div class="vstack gap-3">
                             <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-3 w-100 h-50">
                                 <div class="d-flex flex-column align-items-start position-relative">
@@ -174,29 +183,33 @@
                     </div>
                     <!-- 1-2. 이미지 노출 지면 -->
                     <div id="hero"
-                        class="col shadow-sm overflow-hidden d-flex flex-column justify-content-center border border-light-subtle">
+                        class="col-12 col-md-4 mb-4 shadow-sm overflow-hidden d-flex flex-column justify-content-center border border-light-subtle">
 
                     </div>
                     <!-- 1-3. 정보 Column -->
-                    <div class="col d-flex flex-column align-items-end">
-                        <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-5 w-100">
-                            <div class="d-flex flex-column align-items-start position-relative">
-                                <h2 class="mb-2 text-primary">노인장기요양보험</h2>
-                                <small class="w-50 text-break text-secondary mb-5">어르신들이 댁에서 도움을 받을 수 있는 보험제도를
-                                    알아보세요.</small>
-                                <button class="btn btn-primary my-2">바로가기</button>
-                                <img src="./sources/image_elderly.png" class="position-absolute bottom-0 end-0"
-                                    style="width: 8rem; height: 8rem;" alt="">
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="vstack gap-4">
+
+                            <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-5 w-100">
+                                <div class="d-flex flex-column align-items-start position-relative">
+                                    <h2 class="mb-2 text-primary">노인장기요양보험</h2>
+                                    <small class="w-50 text-break text-secondary mb-5">어르신들이 댁에서 도움을 받을 수 있는 보험제도를
+                                        알아보세요.</small>
+                                    <button class="btn btn-primary my-2">바로가기</button>
+                                    <img src="./sources/image_elderly.png" class="position-absolute bottom-0 end-0"
+                                        style="width: 8rem; height: 8rem;" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-5 mt-auto w-100">
-                            <div class="d-flex flex-column align-items-start position-relative">
-                                <h2 class="mb-2 text-primary">서비스 이용 방법</h2>
-                                <small class="w-50 text-break text-secondary mb-5">재가 서비스를 이용 받기 위해서 필요한 절차를
-                                    도와드립니다.</small>
-                                <button class="btn btn-primary my-2">바로가기</button>
-                                <img src="./sources/image_howto.png" class="position-absolute bottom-0 end-0"
-                                    style="width: 8rem; height: 8rem;" alt="">
+                            <div
+                                class="card bg-primary-subtle shadow-sm border-0 rounded-0 text-start p-5 mt-auto w-100">
+                                <div class="d-flex flex-column align-items-start position-relative">
+                                    <h2 class="mb-2 text-primary">서비스 이용 방법</h2>
+                                    <small class="w-50 text-break text-secondary mb-5">재가 서비스를 이용 받기 위해서 필요한 절차를
+                                        도와드립니다.</small>
+                                    <button class="btn btn-primary my-2">바로가기</button>
+                                    <img src="./sources/image_howto.png" class="position-absolute bottom-0 end-0"
+                                        style="width: 8rem; height: 8rem;" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -234,31 +247,36 @@
                     </button>
                 </div>
                 <!-- 2-3. Contact Info -->
-                <div class="container">
-                    <h3 class="text-body-emphasis fst-italic">찾아오시는 길</h1>
-                        <div class="d-flex mb-5 justify-content-between">
-                            <img src="./sources/image_map.png" class="img-fluid w-50" alt="">
-                            <div class="bg-primary-subtle rounded-1 shadow-sm p-5 d-flex flex-column">
-                                <div class="d-flex flex-column justify-content-center my-3">
-                                    <p class="badge rounded-pill text-bg-primary fs-5">도로명주소</p>
-                                    <span class="fs-6 fw-bold">광주광역시 광산구 수등로 258번길 10(우미 린 상가)<br>롯데슈퍼 2층 미소
-                                        노인재가복지센터</span>
-                                </div>
-                                <div class="d-flex flex-column justify-content-center my-3">
-                                    <p class="badge rounded-pill text-bg-primary fs-5">인근 건물 정보</p>
-                                    <span class="fs-6 fw-bold">* 신가사거리에서 우미아파트 상가 롯데슈퍼 2층으로 오세요~</span>
-                                </div>
-                                <div class="d-flex flex-column justify-content-center my-3">
-                                    <p class="badge rounded-pill text-bg-primary fs-5">문의 전화</p>
-                                    <span class="fs-6 fw-bold">대표 : 신수연 / 010-8615-2332</span>
-                                </div>
-                                <!-- <p class="lead mb-3 badge rounded-pill text-bg-primary">도로명주소 </p>
-                                <span>광주광역시 광산구 수등로 258번길 10(우미 린 상가) 롯데슈퍼 2층 미소 노인재가복지센터</span>
-                                <p class="lead my-3 badge rounded-pill text-bg-primary">인근건물 <br> * 신가사거리에서 우미아파트 상가 롯데슈퍼 2층으로 오세요~</p>
-                                <p class="lead my-3 badge rounded-pill text-bg-primary">문의전화 <br> 대표 : 신수연 / 010-8615-2332</p> -->
+                <h3 class="text-body-emphasis fst-italic">찾아오시는 길</h3>
+                <div class="row mb-5 align-items-start">
+                    <!-- 이미지: 항상 최소 50% 이상 차지 -->
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <img src="./sources/image_map.png" class="img-fluid w-100 h-100 object-fit-cover" alt="지도 이미지">
+                    </div>
+
+                    <!-- 텍스트: 50% 또는 아래로 -->
+                    <div class="col-12 col-md-6">
+                        <div
+                            class="bg-primary-subtle rounded-1 shadow-sm p-4 h-100 d-flex flex-column justify-content-center">
+                            <div class="mb-3">
+                                <p class="badge rounded-pill text-bg-primary fs-5">도로명주소</p>
+                                <span class="fs-6 fw-bold">
+                                    광주광역시 광산구 수등로 258번길 10(우미 린 상가)<br>
+                                    롯데슈퍼 2층 미소 노인재가복지센터
+                                </span>
+                            </div>
+                            <div class="mb-3">
+                                <p class="badge rounded-pill text-bg-primary fs-5">인근 건물 정보</p>
+                                <span class="fs-6 fw-bold">* 신가사거리에서 우미아파트 상가 롯데슈퍼 2층으로 오세요~</span>
+                            </div>
+                            <div class="mb-3">
+                                <p class="badge rounded-pill text-bg-primary fs-5">문의 전화</p>
+                                <span class="fs-6 fw-bold">대표 : 신수연 / 010-8615-2332</span>
                             </div>
                         </div>
+                    </div>
                 </div>
+
             </div>
         </div>
         <!-- 3. Social Info Div -->
