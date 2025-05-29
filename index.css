@@ -1,0 +1,36 @@
+#hero {
+    background-image: url("./sources/image_header.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 30rem;
+}
+
+.div-img {
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.img-logo {
+    background-image: url("./sources/image_logo.jpg");
+}
+
+.img-blog {
+    background-image: url("https://i.namu.wiki/i/QWVJJqQ2U_KE1A1BkDI5WwhFcIeQ4C9uGIgibUWPHr3ev65fv4JW9_Yd-66EVu_0TF8mMXIh9k_dnrv_DlLBCw.svg");
+}
+
+.img-kakao {
+    background-image: url("https://t1.kakaocdn.net/rocket/static/images/meta_kakao_talk_channel_symbol.png");
+}
+
+.img-list {
+    background-image: url("https://plus.unsplash.com/premium_photo-1681487867978-1b83ce2625c5?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
